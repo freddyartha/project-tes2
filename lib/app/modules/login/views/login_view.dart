@@ -39,7 +39,7 @@ class LoginView extends GetView<LoginController> {
           spacing: 20,
           children: [
             ImageComponent(
-              svgUrl: "assets/png/applogo.png",
+              localUrl: "assets/png/applogo.png",
               width: Get.width * 0.4,
             ),
             TextComponent(
